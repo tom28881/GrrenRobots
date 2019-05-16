@@ -1,0 +1,16 @@
+import React from 'react';
+
+
+
+ // Černý border box kolem robotu
+
+const Scroll = (props) => {
+  console.log('Scroll');
+  return (
+    <div style={{ overflow: 'scroll', border: '5px solid black', height: '800px'}}>
+      {props.children}
+    </div>
+  );
+};
+
+export default Scroll;
